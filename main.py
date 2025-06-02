@@ -147,4 +147,5 @@ if mbti_selected:
     st.markdown("---")
     st.markdown(f"### 🧬 <span style='color:#20B2AA'>[{mbti_selected}]</span>에게 추천하는 직업은...!", unsafe_allow_html=True)
 
-    for job, info in mbti_jobs[mbti_selected].item_]():
+    for job, info in mbti_jobs[mbti_selected].items():
+
